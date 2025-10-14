@@ -23,10 +23,12 @@ const HomeHeader = () => {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-gray-200 mb-6 animate-fadeIn delay-200">
-            Welcome to your trusted passenger transport service! We provide
-            comfortable rides, experienced drivers, and stress-free journeys —
-            every time you travel with us. Our modern fleet and professional
-            chauffeurs ensure every journey is smooth, safe, and on time.
+            Welcome to Bin Umar Passenger Transport — your trusted choice for
+            reliable and comfortable travel across Dubai and the UAE. We offer
+            modern, well-maintained vehicles, expert chauffeurs, and a
+            commitment to punctuality and safety. Whether you’re heading to the
+            airport, attending a business meeting, or exploring the city, we
+            make every ride smooth, comfortable, and completely stress-free.
           </p>
 
           <h2 className="text-xl sm:text-2xl font-semibold text-cyan-400 animate-fadeIn delay-500">

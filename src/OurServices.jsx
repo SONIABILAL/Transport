@@ -7,25 +7,25 @@ const OurServices = () => {
       image: "/images/bus5.jpeg",
       title: "Airport Transfers",
       description:
-        "Seamlessly transition from air to ground with our impeccable airport transfer service. Relax as our professional chauffeurs whisk you away in comfort and style.",
+        "Enjoy a seamless journey from the airport to your destination with our reliable transfer service. Sit back and relax as our professional chauffeurs ensure a smooth, stylish, and comfortable ride — right on time, every time.",
     },
     {
       image: "/images/bus6.jpeg",
       title: "Hotel Transfer",
       description:
-        "Elevate your stay with our luxurious hotel transfer service. Enjoy the convenience of door-to-door transportation by our expert drivers in Dubai.",
+        "Enhance your Dubai experience with our luxurious hotel transfer service. Enjoy door-to-door convenience, punctual pickups, and smooth rides with our professional chauffeurs — ensuring you arrive relaxed and on time, every time",
     },
     {
       image: "/images/seat3.jpeg",
       title: "City Tour",
       description:
-        "Embark on a journey of discovery with our captivating city tour service. Explore Dubai’s landmarks, hidden gems, and culture from our premium vehicles.",
+        "Embark on an unforgettable journey through Dubai with our premium city tour service. Discover iconic landmarks, hidden gems, and the rich culture of the city — all from the comfort of our modern, luxury vehicles.",
     },
     {
       image: "/images/business.jpeg",
       title: "Business Meeting Chauffeurs",
       description:
-        "Arrive at your business meetings in style with our experienced chauffeurs. Punctual, discreet, and professional, our chauffeurs ensure a smooth and hassle-free experience, allowing you to focus on your agenda.",
+        "Make a lasting impression by arriving at your meetings in comfort and style. Our professional chauffeurs are punctual, discreet, and highly experienced — ensuring a smooth, stress-free ride so you can stay focused on what matters most: your business.",
     },
     {
       image: "/images/service4.jpg",
@@ -35,9 +35,9 @@ const OurServices = () => {
     },
     {
       image: "/images/conference.png",
-      title: "Conferences",
+      title: "Executive Conference Transportation",
       description:
-        "Make a lasting impression at your next conference with our dedicated chauffeur services. From airport transfers for keynote speakers to shuttle services for attendees, we handle all your transportation needs with efficiency and professionalism.",
+        "Ensure a flawless experience at your next conference with our reliable chauffeur services. From seamless airport transfers for keynote speakers to comfortable shuttle transport for attendees, Bin Umar Passenger Transport delivers efficiency, professionalism, and comfort at every step.",
     },
   ];
 
@@ -53,13 +53,16 @@ const OurServices = () => {
         <div className="absolute inset-0 bg-black/60"></div>
 
         <div className="relative z-10 px-6">
-          <h1 className="text-5xl font-bold mb-3">Our Services</h1>
+          <h1 className="text-5xl font-bold mb-3">
+            Explore Our Premium Transport Services
+          </h1>
           <p className="max-w-2xl mx-auto text-lg">
-            At Bin Umar passenger Transport, we provide reliable, comfortable,
-            and affordable transportation solutions across Dubai and the UAE.
-            Whether you need city tours, airport transfers, staff transport, or
-            private rentals, our modern fleet and experienced drivers ensure a
-            smooth and safe journey every time.
+            At <strong>Bin Umar Passenger Transport</strong>, we deliver
+            reliable, comfortable, and affordable transportation solutions
+            across Dubai and the UAE. Whether you’re booking a city tour,
+            airport transfer, staff transport, or private rental, our modern
+            fleet and professional drivers ensure every journey is safe, smooth,
+            and on time.
           </p>
         </div>
       </div>

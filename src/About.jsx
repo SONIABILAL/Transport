@@ -1,5 +1,3 @@
-import React from "react";
-
 const About = () => {
   return (
     <section className="pb-20">
@@ -15,10 +13,11 @@ const About = () => {
         <div className="relative z-10 px-6">
           <h1 className="text-5xl font-bold mb-3 tracking-wide">About Us</h1>
           <p className="max-w-2xl mx-auto text-lg leading-relaxed">
-            <strong>Bin Umar Passenger Transport</strong> is a trusted name in
-            luxury and reliable transportation across Dubai. We provide safe,
-            comfortable, and well-maintained buses for group travel, city tours,
-            events, and corporate transfers.
+            <strong>Bin Umar Passenger Transport</strong> is a trusted provider
+            of luxury and reliable transportation services across Dubai and the
+            UAE. We offer safe, comfortable, and well-maintained buses for group
+            travel, city tours, events, and corporate transfers — ensuring every
+            journey is smooth, punctual, and stress-free.
           </p>
         </div>
       </div>
@@ -30,15 +29,15 @@ const About = () => {
           {/* Left Content */}
           <div className="flex flex-col justify-center">
             <h2 className="text-4xl md:text-5xl leading-snug text-cyan-800 mb-4 font-semibold">
-              About Our Transport Company
+              About Bin Umar Passenger Transport
             </h2>
             <p className="mb-4 text-lg leading-relaxed text-gray-700">
-              <strong>Bin Umar Passenger Transport</strong> offers reliable and
-              professional bus rental services in Dubai. With our diverse fleet
-              of well-maintained vehicles and experienced drivers, we ensure
-              safe and comfortable travel for every passenger. Whether it’s a
-              group trip, school event, or corporate transfer — we’ve got you
-              covered.
+              <strong>Bin Umar Passenger Transport</strong> provides reliable
+              and professional bus rental services across Dubai and the UAE. Our
+              diverse fleet of well-maintained vehicles and skilled drivers
+              ensures every journey is safe, comfortable, and on time. Whether
+              it’s a corporate transfer, school trip, or group travel, we
+              deliver transportation solutions you can truly depend on.
             </p>
             <ul className="space-y-2 ml-6 list-disc text-gray-700">
               <li>Wide range of luxury and standard buses</li>

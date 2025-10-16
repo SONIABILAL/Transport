@@ -45,18 +45,18 @@ const OurServices = () => {
     <section>
       {/* 🔹 Top Banner Section */}
       <div
-        className="relative bg-cover bg-center h-[70vh] flex flex-col justify-center items-center text-white text-center"
+        className="relative bg-cover bg-center h-[80vh] sm:h-[70vh] flex flex-col justify-center items-center text-white text-center"
         style={{
           backgroundImage: "url('/images/bus4.jpeg')",
         }}
       >
-        <div className="absolute inset-0 bg-black/60"></div>
+        <div className="absolute inset-0 bg-black/70"></div>
 
         <div className="relative z-10 px-6">
-          <h1 className="text-5xl font-bold mb-3">
-            Explore Our Premium Transport Services
+          <h1 className="text-4xl sm:text-5xl font-bold mb-3 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
+            Transport Services
           </h1>
-          <p className="max-w-2xl mx-auto text-lg">
+          <p className="max-w-2xl mx-auto text-base sm:text-lg leading-relaxed text-gray-200">
             At <strong>Bin Umar Passenger Transport</strong>, we deliver
             reliable, comfortable, and affordable transportation solutions
             across Dubai and the UAE. Whether you’re booking a city tour,
@@ -66,11 +66,12 @@ const OurServices = () => {
           </p>
         </div>
       </div>
-
-      {/* 🔹 Services Section */}
+      {/* 🔹 Services Section */}{" "}
       <div className="max-w-6xl mx-auto px-6 py-16">
-        {/* 🔹 Cards Grid */}
+        {" "}
+        {/* 🔹 Cards Grid */}{" "}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {" "}
           {serviceData.map((service, index) => (
             <ServiceCard
               key={index}
@@ -78,23 +79,30 @@ const OurServices = () => {
               title={service.title}
               description={service.description}
             />
-          ))}
-        </div>
+          ))}{" "}
+        </div>{" "}
       </div>
       {/* last part */}
-
       <div
-        className="relative bg-cover bg-center h-[70vh] flex flex-col justify-center items-center text-white text-center"
+        className="relative bg-cover bg-center h-[80vh] sm:h-[70vh] flex flex-col justify-center items-center text-white text-center px-4"
         style={{
           backgroundImage: "url('/images/serviceBack.jpg')",
         }}
       >
-        <h1 className="text-5xl font-bold ">OR ANYWHERE YOU NEED US TO TAKE</h1>
-        <p className="mt-3 leading-relaxed text-xl">
-          not only taking to night parties wedding casion birthdays but we also
-          take you to anywhere you want to go
-        </p>
-        <h2 className="text-3xl font-bold mt-5">CALL NOW +971 54 736 6514</h2>
+        <div className="absolute inset-0 bg-black/70"></div>
+
+        <div className="relative z-10">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
+            OR ANYWHERE YOU NEED US TO TAKE
+          </h1>
+          <p className="mt-3 leading-relaxed text-base sm:text-xl text-gray-200">
+            Not only taking you to night parties, weddings, casinos, or
+            birthdays — we also take you anywhere you want to go.
+          </p>
+          <h2 className="text-2xl sm:text-3xl font-bold mt-5 text-cyan-300 drop-shadow-[0_2px_4px_rgba(0,0,0,0.9)]">
+            CALL NOW +971 54 736 6514
+          </h2>
+        </div>
       </div>
     </section>
   );
